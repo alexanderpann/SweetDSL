@@ -5,6 +5,9 @@ SweetDSL is a plugin for [Jetbrains MPS](https://www.jetbrains.com/mps/) that us
 ## I can't find the plugin in the Jetbrains plugin store. Where is it?
 A first attempt at a build script is already included. Help.
 
+## Do I need any additional MPS plugins?
+Yes. com.mbeddr.core, com.mbeddr.mpsutil and org.campagnelab.textoutput. They can all be found in the MPS plugin store.
+
 ## Do I need any other dependencies except MPS?
 Yes, Maven. Go to preferences -> Other settings -> SweetDSL generation and change the path to the executable if neccessary.
 
@@ -29,6 +32,8 @@ model -> Java. Right click on MarkdownExample -> Recompile Web App. Try to under
 ## Where is the cached version saved?
 In the node attribute.
 
+# What is the purpose of Global classes?
+Go to  [JSweet documentation](https://github.com/cincheo/jsweet/blob/master/doc/jsweet-language-specifications.md#globals)->Globals to find more information about it.
 
 ## The webpage says that the maven build failed. What do I have to do?
 
