@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/_spreferences/CodeReviewPreferences/module.msd" folder="_spreferences" />
+      <modulePath path="$PROJECT_DIR$/_spreferences/SweetDSLDependencyCreator/module.msd" folder="_spreferences" />
+      <modulePath path="$PROJECT_DIR$/_spreferences/SweetDSlGenerationSettings/module.msd" folder="_spreferences" />
+      <modulePath path="$PROJECT_DIR$/languages/com.github.fxlex.XHTML/com.github.fxlex.XHTML.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.github.fxlex.js.AngularJS/com.github.fxlex.js.AngularJS.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.github.fxlex.js.BackboneJS/com.github.fxlex.js.BackboneJS.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.github.fxlex.js.KnockoutJS/com.github.fxlex.js.KnockoutJS.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.github.fxlex.js.Marked/com.github.fxlex.js.Marked.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.github.fxlex.js.Promise/com.github.fxlex.js.Promise.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.github.fxlex.js.SweetDSL/com.github.fxlex.SweetDSL.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.github.fxlex.SweetDSL.build/com.github.fxlex.SweetDSL.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.github.fxlex.SweetDSL.preferences/com.github.fxlex.SweetDSL.dependencyCreator.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.github.fxlex.XML/com.github.fxlex.XML.plugin.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.github.fxlex.js.SweetDSL.plugin/com.github.fxlex.SweetDSL.plugin.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.github.fxlex.js.SweetDSL/sandbox/com.github.fxlex.SweetDSL.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.github.fxlex.sweetDSL.generation/com.github.fxlex.sweetDSL.generation.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
