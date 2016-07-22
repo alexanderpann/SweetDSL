@@ -45,3 +45,11 @@ There could be multi reasons for that:
 
 ## The webpage is not loading. Help.
 This seems to be an internal error and should be reported in the issue tracker.
+
+## License
+
+SweetDSL is under the MIT license.
+
+## Used libraries
+
+JSweet is under the Apache 2.0 Open Source license.
