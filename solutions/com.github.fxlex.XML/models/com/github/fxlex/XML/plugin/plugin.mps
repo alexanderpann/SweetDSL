@@ -146,7 +146,6 @@
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <property id="4276006055363816570" name="isSynchronized" index="od$2w" />
         <property id="1181808852946" name="isFinal" index="DiZV1" />
-        <child id="1164879685961" name="throwsItem" index="Sfmx6" />
         <child id="1068580123133" name="returnType" index="3clF45" />
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
@@ -604,73 +603,6 @@
       <node concept="3Tm1VV" id="3iXv5o1SzNH" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="3iXv5o1T1fI" role="jymVt" />
-    <node concept="2YIFZL" id="3iXv5o1T1SE" role="jymVt">
-      <property role="TrG5h" value="test" />
-      <property role="od$2w" value="false" />
-      <property role="DiZV1" value="false" />
-      <property role="2aFKle" value="false" />
-      <node concept="3clFbS" id="3iXv5o1T1SH" role="3clF47">
-        <node concept="3cpWs8" id="3iXv5o1YB5e" role="3cqZAp">
-          <node concept="3cpWsn" id="3iXv5o1YB5f" role="3cpWs9">
-            <property role="TrG5h" value="path" />
-            <node concept="3uibUv" id="3iXv5o1YB5g" role="1tU5fm">
-              <ref role="3uigEE" to="eoo2:~Path" resolve="Path" />
-            </node>
-            <node concept="2YIFZM" id="3iXv5o1T20$" role="33vP2m">
-              <ref role="37wK5l" to="eoo2:~Paths.get(java.lang.String,java.lang.String...):java.nio.file.Path" resolve="get" />
-              <ref role="1Pybhc" to="eoo2:~Paths" resolve="Paths" />
-              <node concept="Xl_RD" id="3iXv5o1T20_" role="37wK5m">
-                <property role="Xl_RC" value="/Users/alexanderpann/MPSProjects/SweetDSL/solutions/com.github.fxlex.js.SweetDSL/sandbox/data/angularjs/index.html" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3iXv5o1T20A" role="3cqZAp">
-          <node concept="2OqwBi" id="3iXv5o1T20t" role="3clFbG">
-            <node concept="2ShNRf" id="3iXv5o1T20u" role="2Oq$k0">
-              <node concept="HV5vD" id="3iXv5o1T20v" role="2ShVmc">
-                <ref role="HV5vE" node="3iXv5o1Sw4e" resolve="Parser" />
-              </node>
-            </node>
-            <node concept="liA8E" id="3iXv5o1T20w" role="2OqNvi">
-              <ref role="37wK5l" node="3iXv5o1SzNh" resolve="parse" />
-              <node concept="2ShNRf" id="3iXv5o1T20x" role="37wK5m">
-                <node concept="1pGfFk" id="3iXv5o1T20y" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~String.&lt;init&gt;(byte[])" resolve="String" />
-                  <node concept="2YIFZM" id="3iXv5o1T20z" role="37wK5m">
-                    <ref role="37wK5l" to="eoo2:~Files.readAllBytes(java.nio.file.Path):byte[]" resolve="readAllBytes" />
-                    <ref role="1Pybhc" to="eoo2:~Files" resolve="Files" />
-                    <node concept="37vLTw" id="3iXv5o1YD0U" role="37wK5m">
-                      <ref role="3cqZAo" node="3iXv5o1YB5f" resolve="path" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="3iXv5o1YCaD" role="37wK5m">
-                <node concept="2OqwBi" id="3iXv5o1YBUk" role="2Oq$k0">
-                  <node concept="37vLTw" id="3iXv5o1YBOS" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3iXv5o1YB5f" resolve="path" />
-                  </node>
-                  <node concept="liA8E" id="3iXv5o1YC53" role="2OqNvi">
-                    <ref role="37wK5l" to="eoo2:~Path.getFileName():java.nio.file.Path" resolve="getFileName" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="3iXv5o1YCUP" role="2OqNvi">
-                  <ref role="37wK5l" to="eoo2:~Path.toString():java.lang.String" resolve="toString" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="3iXv5o1T1vh" role="1B3o_S" />
-      <node concept="3Tqbb2" id="3iXv5o1T1Su" role="3clF45">
-        <ref role="ehGHo" to="iuxj:5M4a$b5j9j0" resolve="XmlFile" />
-      </node>
-      <node concept="3uibUv" id="3iXv5o1T3vl" role="Sfmx6">
-        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="3iXv5o1SxXw" role="jymVt" />
     <node concept="312cEu" id="3iXv5o1Sy4Z" role="jymVt">
       <property role="2bfB8j" value="true" />
