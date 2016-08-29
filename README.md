@@ -2,6 +2,9 @@
 
 SweetDSL is a plugin for [Jetbrains MPS](https://www.jetbrains.com/mps/) that uses [JSweet](http://www.jsweet.org/), a transpiler from Java to TypeScript/JavaScript, and a modified version of MPS's builtin XML language to generate web apps. New javascript libraries can be easily added as a new language and are fetched from a maven script and then compiled to javascript.
 
+![Code](https://github.com/fxlex/SweetDSL/blob/master/screenshots/s1.png)
+
+
 ## I can't find the plugin in the Jetbrains plugin store. Where is it?
 A first attempt at a build script is already included. Help.
 
@@ -45,6 +48,24 @@ There could be multi reasons for that:
 
 ## The webpage is not loading. Help.
 This seems to be an internal error and should be reported in the issue tracker.
+
+## Screenshots
+
+### HTML + references to resources
+![HTML + references to resources](https://github.com/fxlex/SweetDSL/blob/master/screenshots/s3.png)
+
+### Resource node
+![Resource node](https://github.com/fxlex/SweetDSL/blob/master/screenshots/s4.png)
+
+### Generated web page
+![Generated web page](https://github.com/fxlex/SweetDSL/blob/master/screenshots/s5.png)
+
+### Output when the generation fails
+![Output when the generation fails](https://github.com/fxlex/SweetDSL/blob/master/screenshots/s6.png)
+
+### Custom View
+![Custom view](https://github.com/fxlex/SweetDSL/blob/master/screenshots/s2.png)
+
 
 ## License
 
